@@ -1,7 +1,3 @@
-# Microcredential_FinalProject
+# Microcredential Final Project
 
-# Question or Hypothesis
-
-# Python Code and Analysis Output
-
-# Data Set Evaluation
+This repository is about the Research Data Foundations Camp final project which is due by April 1st, 2026. 
