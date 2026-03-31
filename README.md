@@ -9,4 +9,4 @@ The topic of this project of the Research Data Foundations Camp final project is
 
 # 1. Question and Hypothesis
 
-Typical $K$-means clustering deals with the set of "points", but we could go and ask 
+Typical $K$-means clustering deals with the set of "points", but we could go and ask the following question: "what if we have a set of "networks", or "graphs" instead of points?
