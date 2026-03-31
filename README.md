@@ -5,4 +5,8 @@ The topic of this project of the Research Data Foundations Camp final project is
 1. **Initialization:** choose $K$ initial centroids (means) of the sample randomly;
 2. **Assigning:** Assign each data point to the closest centroid with respect to the Euclidean distance;
 3. **Update:** Calculate the new centroid for each cluster;
-4. **Iteration:** Iterate Step 2 and 3 ultil centroids no longer change (convergence).
+4. **Iteration:** Iterate 2 and 3 ultil centroids no longer change (convergence).
+
+# 1. Question and Hypothesis
+
+Typical $K$-means clustering deals with the set of "points", but we could go and ask 
