@@ -9,12 +9,6 @@ The topic of this project of the Research Data Foundations Camp final project is
 
 # 1. Question and Hypothesis
 
-Typical $K$-means clustering deals with the set of "points", but we could go and ask the following question: "what if we have a set of "networks", or "graphs" instead of points? Formally, a graph is a tuple
-
-$$
-G=(V,E),
-$$
-
-consisting of a set $V$ of nodes (entities) and a set $E$ of edges (relationship). Graphs are commonly used in data modelling because they intuitively represent complex, highly connected real-world relationships, unlike tabulated data. Both nodes and edges in a graph enable fast, efficient interpretation of real-world data.
+Typical $K$-means clustering deals with the set of "points", but we could go and ask the following question: "what if we have a set of "networks", or "graphs" instead of points? Formally, a graph is a tuple $G=(V,E)$, consisting of a set $V$ of nodes (entities) and a set $E$ of edges (relationship). Graphs are commonly used in data modelling because they intuitively represent complex, highly connected real-world relationships, unlike tabulated data. Both nodes and edges in a graph enable fast, efficient interpretation of real-world data.
 
 Suppose we have a set of graphs $'\mathcal{G}=\{G_1,G_2,\cdots,G_N\}'$, then we must have a notion of distance between graphs to determine how close two graphs are in the $K$-means clustering. Typical distances, such as Euclidean distance or $L^p$-distance do not work in this setting.
