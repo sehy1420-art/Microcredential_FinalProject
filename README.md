@@ -11,10 +11,10 @@ The topic of this project of the Research Data Foundations Camp final project is
 
 Typical $K$-means clustering deals with the set of "points", but we could go and ask the following question: "what if we have a set of "networks", or "graphs" instead of points? Formally, a graph is a tuple
 
-\begin{align}
-G=(V,E)
-\end{align}
+$$
+G=(V,E),
+$$
 
-consists of a set of nodes (entities) and a set of edges (relationship). Graphs are commonly used in data modelling because they intuitively represent complex, highly connected real-world relationships, unlike tabulated data. Both nodes and edges in a graph enable fast, efficient interpretation of real-world data.
+consisting of a set $V$ of nodes (entities) and a set $E$ of edges (relationship). Graphs are commonly used in data modelling because they intuitively represent complex, highly connected real-world relationships, unlike tabulated data. Both nodes and edges in a graph enable fast, efficient interpretation of real-world data.
 
 Suppose we have a set of graphs
