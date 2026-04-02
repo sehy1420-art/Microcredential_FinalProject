@@ -22,6 +22,9 @@ To test this, we use the Online Retail Dataset (available via the UCI Machine Le
 - Key Features: Quantity, UnitPrice, CustomerID, and InvoiceDate.
 - Goal: Engineer features for Frequency, Recency, and Monetary value (RFM) to see how K-means clusters them.
 
+**Citation:**  
+> Chen, D. (2015). *Online Retail* [Dataset]. UCI Machine Learning Repository. [https://doi.org/10.24432/C5BW33](https://doi.org/10.24432/C5BW33)
+
 ## Methodology
 
 1. **Data Cleaning:** Removed cancellations (negative quantities) and missing Customer IDs.
@@ -39,3 +42,4 @@ To test this, we use the Online Retail Dataset (available via the UCI Machine Le
 
 - **Outlier Sensitivity:** A few massive wholesale orders can shift the cluster centers significantly.
 - **Spherical Bias:** $K$-Means assumes clusters are circular/spherical, which may not perfectly capture the "long-tail" distribution of retail spend.
+
