@@ -1,13 +1,19 @@
-# $K$-Means Clustering Algorithm in Graph Machine Learning
+# Customer Segmentation using K-Means Clustering
 
-The topic of this project of the Research Data Foundations Camp final project is related to graph machine learning, specifically known as the $K$-means clustering algorithm. The $K$-means clustering algorithm is an unsupervised machine learning algorithm that partitions a dataset into $K$ distinct, non-overlapping clusters. It is an iterative algorithm that assigns data points to the nearest centroid (mean) and updating centroids to minimize within-cluster sum of squared errors (distance). Namely, the algorithm steps are as follows:
+## Overview
 
-1. **Initialization:** choose $K$ initial centroids (means) of the sample randomly;
-2. **Assigning:** Assign each data point to the closest centroid with respect to the Euclidean distance;
-3. **Update:** Calculate the new centroid for each cluster;
-4. **Iteration:** Iterate 2 and 3 ultil centroids no longer change (convergence).
+This project explores the relationship between raw customer behavior (purchase frequency and basket size) and overall customer value. We use the K-Means Clustering algorithm to see if it can naturally identify high-value customers without being explicitly told their total spend.
 
-# 1. Question and Hypothesis
+## Hypothesis
+
+"In retail customer segmentation, the K-means algorithm will naturally group customers into clusters that correlate with their 'Total Spend', even if the algorithm is only provided with behavioral features like frequency and average basket size."
+
+## Dataset
+
+We use the UCI Online Retail Dataset, which contains transactional data from a UK-based online retailer.
+
+- Size: ~541,000 rows.
+- Key Features Used: InvoiceNo, Quantity, UnitPrice, and CustomerID.
 
 "In retail customer segmentation, the K-means algorithm will naturally group customers into clusters that correlate with their 'Value Score' (Total Spend), even if the algorithm is only provided with raw behavioral data like purchase frequency and average basket size."
 
