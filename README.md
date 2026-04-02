@@ -21,3 +21,21 @@ To test this, we use the Online Retail Dataset (available via the UCI Machine Le
 
 - Key Features: Quantity, UnitPrice, CustomerID, and InvoiceDate.
 - Goal: Engineer features for Frequency, Recency, and Monetary value (RFM) to see how K-means clusters them.
+
+## Methodology
+
+1. **Data Cleaning:** Removed cancellations (negative quantities) and missing Customer IDs.
+2. **Feature Engineering:** Aggregated raw transactions into Frequency (unique visits) and AvgBasket (average price per item).
+3. **Preprocessing:** Applied StandardScaler to normalize the data, ensuring 'Frequency' and 'Price' have equal weight in distance calculations.
+4. **Clustering:** Implemented KMeans(n_clusters=3) to segment customers into Low, Medium, and High-value groups.
+
+## Key Findings
+
+- **Cluster 0 (Casual):** High volume of customers with low frequency and low basket size.
+- **Cluster 1 (Wholesale/VIP):** Low volume but extremely high average spend.
+- **Validation:** Even without "Total Spend" as an input, the clusters showed a strong correlation with the actual revenue generated per customer.
+
+## Limitations
+
+- **Outlier Sensitivity:** A few massive wholesale orders can shift the cluster centers significantly.
+- **Spherical Bias:** $K$-Means assumes clusters are circular/spherical, which may not perfectly capture the "long-tail" distribution of retail spend.
