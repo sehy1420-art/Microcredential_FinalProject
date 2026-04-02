@@ -10,3 +10,8 @@ The topic of this project of the Research Data Foundations Camp final project is
 # 1. Question and Hypothesis
 
 "In retail customer segmentation, the K-means algorithm will naturally group customers into clusters that correlate with their 'Value Score' (Total Spend), even if the algorithm is only provided with raw behavioral data like purchase frequency and average basket size."
+
+To test this, we use the Online Retail Dataset (available via the UCI Machine Learning Repository). It contains transactional data for a UK-based non-store online retail company.
+
+- Key Features: Quantity, UnitPrice, CustomerID, and InvoiceDate.
+- Goal: Engineer features for Frequency, Recency, and Monetary value (RFM) to see how K-means clusters them.
