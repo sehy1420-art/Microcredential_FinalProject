@@ -10,7 +10,7 @@ This project explores the relationship between raw customer behavior (purchase f
 
 ## Dataset
 
-We use the UCI Online Retail Dataset, which contains transactional data from a UK-based online retailer.
+We use the UCI Online Retail Dataset: https://archive.ics.uci.edu/dataset/352/online+retail, which contains transactional data from a UK-based online retailer.
 
 - Size: ~541,000 rows.
 - Key Features Used: InvoiceNo, Quantity, UnitPrice, and CustomerID.
